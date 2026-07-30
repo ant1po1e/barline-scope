@@ -5,6 +5,8 @@ export default function Footer() {
       instant, effective speed = SV(t) × BPM(t) / reference BPM — the same two numbers osu!mania multiplies together to decide how fast everything
       scrolls. Position is that speed integrated over time. Nothing here reproduces the game's rendering cache — it's the honest math, so a huge spike
       really does mean the barline covers a huge distance in that instant.
+
+      <p className="text-center mt-10">Made with ❤️ by <a href="https://osu.ppy.sh/users/17258072" className="text-ink-link hover:underline">Antipole</a></p>
     </footer>
   );
 }
